@@ -1,0 +1,9 @@
+{
+  "name": "KataPrime",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "composer dump-autoload;./vendor/bin/phpunit --testdox"
+  }
+}
