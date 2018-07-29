@@ -43,13 +43,13 @@ class PrimeTest extends TestCase
         $this->assertEquals([2, 3], $prime->generate(6));
     }
 
-    public function testPrimeGenerate7returns7()
+    public function testPrimeGenerate7Returns7()
     {
         $prime = new Prime();
         $this->assertEquals([7], $prime->generate(7));
     }
 
-    public function testPrimeGenerate8returns222()
+    public function testPrimeGenerate8Returns222()
     {
         $prime = new Prime();
         $this->assertEquals([2, 2, 2], $prime->generate(8));
